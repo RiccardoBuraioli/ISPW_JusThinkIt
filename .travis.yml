@@ -2,13 +2,14 @@ language: java
 jdk:
 - openjdk11
 
+
 addons:
   sonarcloud:
-    organization: "riccardoburaioli"
-    token:"3592de07ac4ede99890e628607257f7603ca73b3"
-
+    organization:"riccardoburaioli"
+    token:
+      secure:"2e0cabd0d2d5e87d88bc480f8727c1baaeb8bac3"
 
 script:
-- ant build
-- sonar-scanner
- 
+  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+  - sonar-scanner
+  - ant build

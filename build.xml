@@ -80,11 +80,11 @@
         <pathelement location="../../../../Program Files (x86)/MySQL/Connector J 5.1/mysql-connector-java-5.1.49-bin.jar"/>
         <path refid="JUnit 5.libraryclasspath"/>
         <path refid="JavaFX SDK.libraryclasspath"/>
-        <pathelement location="../../Desktop/Copie_Ispw/copia_5aaaaaaa4mila/logback-classic-1.2.3.jar"/>
-        <pathelement location="../../Desktop/Copie_Ispw/copia_5aaaaaaa4mila/logback-core-1.2.3.jar"/>
-        <pathelement location="../../Desktop/Copie_Ispw/copia_5aaaaaaa4mila/mapjfx-1.33.2.jar"/>
-        <pathelement location="../../Desktop/Copie_Ispw/copia_5aaaaaaa4mila/mapjfx-demo-1.33.2.jar"/>
-        <pathelement location="../../Desktop/Copie_Ispw/copia_5aaaaaaa4mila/slf4j-api-1.7.25.jar"/>
+        <pathelement location="../../Desktop/ReallyJust/trunk/logback-classic-1.2.3.jar"/>
+        <pathelement location="../../Desktop/ReallyJust/trunk/logback-core-1.2.3.jar"/>
+        <pathelement location="../../Desktop/ReallyJust/trunk/mapjfx-1.33.2.jar"/>
+        <pathelement location="../../Desktop/ReallyJust/trunk/mapjfx-demo-1.33.2.jar"/>
+        <pathelement location="../../Desktop/ReallyJust/trunk/slf4j-api-1.7.25.jar"/>
         <path refid="Apache Tomcat v9.0 [Apache Tomcat v9.0].libraryclasspath"/>
     </path>
     <target name="init">
