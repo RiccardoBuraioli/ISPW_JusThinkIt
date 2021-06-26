@@ -6,8 +6,7 @@ jdk:
 addons:
   sonarcloud:
     organization:"riccardoburaioli"
-    token:
-      secure:"2e0cabd0d2d5e87d88bc480f8727c1baaeb8bac3"
+    token:"2e0cabd0d2d5e87d88bc480f8727c1baaeb8bac3"
 
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
