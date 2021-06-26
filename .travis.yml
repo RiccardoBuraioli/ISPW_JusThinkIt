@@ -6,10 +6,11 @@ script: ant build
 
 addons:
   sonarcloud:
-    organization: "riccardoburaioli" 
-    token: "81483b8ed77ad7807523a8157bcb8bcecc4f217b"
+    organization: "riccardoburaioli"
+    token:
+      secure: "2e0cabd0d2d5e87d88bc480f8727c1baaeb8bac3"
 
 script:
-#mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
-- ant build
-- sonar-scanner
+  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+  - sonar-scanner
+  - ant build
