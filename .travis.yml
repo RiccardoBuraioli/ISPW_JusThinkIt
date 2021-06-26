@@ -7,6 +7,7 @@ addons:
     organization: "riccardoburaioli"
     token:3592de07ac4ede99890e628607257f7603ca73b3
 
+
 script:
 - ant build
 - sonar-scanner
