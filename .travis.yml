@@ -3,6 +3,7 @@ os:
 - linux
 jdk:
 - openjdk11
+dist: xenial
 
 addons:
   sonarcloud:
@@ -14,4 +15,5 @@ addons:
 script:
  - ant build
  - sonar-scanner
+
  
