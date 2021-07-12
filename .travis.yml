@@ -1,4 +1,6 @@
 language: java
+os:
+- windows
 jdk:
 - openjdk11
 
@@ -6,7 +8,7 @@ addons:
   sonarcloud:
     organization: "riccardoburaioli"
     token:
-      secure:"f82b2ad6ab1332e4a256035c04392a10fe83ee0e"
+      secure:f82b2ad6ab1332e4a256035c04392a10fe83ee0e
 
 
 script:
