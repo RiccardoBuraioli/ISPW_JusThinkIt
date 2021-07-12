@@ -1,15 +1,20 @@
-language: java
-jdk:
-- openjdk11
-
-addons:
-  sonarcloud:
-    organization: "riccardoburaioli"
-    token:
-      secure:"f82b2ad6ab1332e4a256035c04392a10fe83ee0e"
-
-
-script:
- - ant build
- - sonar-scanner
- 
+{
+  "language": "java",
+  "os": [
+    "linux"
+  ],
+  "dist": "xenial",
+  "jdk": [
+    "openjdk11"
+  ],
+  "addons": {
+    "sonarcloud": {
+      "organization": "riccardoburaioli",
+      "token": "secure:\"f82b2ad6ab1332e4a256035c04392a10fe83ee0e\""
+    }
+  },
+  "script": [
+    "ant build",
+    "sonar-scanner"
+  ]
+}
